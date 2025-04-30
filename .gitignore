@@ -1,0 +1,91 @@
+# Node.js / npm
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+yarn.lock
+
+# React Native
+*.rncache
+*.mobileconfig
+.expo/
+dist/
+build/
+*.pbxproj
+*.xcodeproj
+*.xcworkspace
+*.DS_Store
+*.ipa
+*.apk
+*.aab
+
+# Expo-specific
+.expo-shared/
+*.jks
+*.keystore
+
+# Metro Bundler
+.metro/
+
+# Android
+.gradle/
+build/
+local.properties
+*.iml
+android/gradlew
+android/gradlew.bat
+android/.idea/
+android/app/build/
+android/app/release/
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+ios/*.xcarchive
+ios/*.plist
+ios/*.mobileprovision
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Editor & IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Mac-specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Coverage
+coverage/
+*.lcov
+
+# Miscellaneous
+*.seed
+*.pid
+*.pid.lock
+*.cache
